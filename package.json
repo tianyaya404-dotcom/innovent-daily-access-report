@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "send:report": "node scripts/send-daily-report.mjs"
+    "send:report": "node send-daily-report.mjs"
   },
   "dependencies": {
     "nodemailer": "^6.10.1",
