@@ -1,0 +1,13 @@
+{
+  "name": "innovent-daily-access-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "send:report": "node scripts/send-daily-report.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.1",
+    "rss-parser": "^3.13.0"
+  }
+}
